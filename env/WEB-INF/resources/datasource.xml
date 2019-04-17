@@ -4,7 +4,7 @@
     <ConnectionMap>
         <Connection name="FRDemo" class="com.fr.data.impl.JDBCDatabaseConnection">
             <DatabaseAttr/>
-            <JDBCDatabaseAttr url="jdbc:sqlite://${ENV_HOME}/../FRDemo.db" driver="org.sqlite.JDBC" user="root"
+            <JDBCDatabaseAttr url="jdbc:sqlite://${ENV_HOME}/FRDemo.db" driver="org.sqlite.JDBC" user="root"
                               password="___006100210065007b" encryptPassword="true">
                 <DBCPAttr/>
             </JDBCDatabaseAttr>

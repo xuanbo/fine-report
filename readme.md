@@ -1,10 +1,10 @@
-# finereport
+# fine-report
 
 > 帆软报表9.0，基于spring boot。
 
 ## 安装依赖
 
-由于帆软只给了`jar`包，我们需要通过`maven`按照到本地仓库。
+由于帆软只给了`jar`包，我们需要通过`maven`安装到本地仓库。
 
 ### Windows
 
@@ -18,11 +18,11 @@
 
 ### 系统
 
-### 端口
+#### 端口
 
 默认15020。配置文件`src/main/resources/application.yml`。
 
-### 日志
+#### 日志
 
 日志默认（异步）输出到`logs`目录下，配置文件`src/main/resources/logback-spring.xml`。
 
@@ -48,6 +48,10 @@
 
 需要将cpt上传到`env/WEB-INF/reportlets`下。
 
+#### FRDemo.db
+
+可以通过`env/FRDemo.db`这个sqlite数据库，进行本地测试。
+
 ## 部署
 
 ### 打包
@@ -67,7 +71,9 @@ $ nohup java -jar hdsp-finereport.{version}.jar > startup.log &
 
 * 浏览器访问：`http://127.0.0.1:15020`
 * 帆软地址：`http://127.0.0.1:15020/ReportServer`。
-* 访问访问模板：`http://127.0.0.1:15020/ReportServer?reportlet=xxx.cpt`，其中`xxx.cpt`需要在`env/WEB-INF/reportlets`下存在。
+* 访问访问模板：`http://127.0.0.1:15020/ReportServer?reportlet=GettingStarted.cpt`，其中`GettingStarted.cpt`需要在`env/WEB-INF/reportlets`下存在。
+
+![GettingStarted](./doc/GettingStarted.jpg)
 
 ## 问题
 
