@@ -69,9 +69,11 @@ $ mvn package
 $ nohup java -jar hdsp-finereport.{version}.jar > startup.log &
 ```
 
+### 访问
+
 * 浏览器访问：`http://127.0.0.1:15020`
 * 帆软地址：`http://127.0.0.1:15020/ReportServer`。
-* 访问访问模板：`http://127.0.0.1:15020/ReportServer?reportlet=GettingStarted.cpt`，其中`GettingStarted.cpt`需要在`env/WEB-INF/reportlets`下存在。
+* 访问帆软模板：`http://127.0.0.1:15020/ReportServer?reportlet=GettingStarted.cpt`，其中`GettingStarted.cpt`需要在`env/WEB-INF/reportlets`下存在。
 
 ![GettingStarted](./doc/GettingStarted.jpg)
 
