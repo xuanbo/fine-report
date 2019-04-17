@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fsconfig xmlVersion="20170715" releaseVersion="8.0.0" useFS="true" mobileDeviceBinding="false">
+    <systemManagerFavoriteAndADHOCReport>
+        <sysFavorite>
+            <Parameters/>
+            <DSName>
+                <![CDATA[]]></DSName>
+            <ColumnNames>
+                <![CDATA[id,,.,,type,,.,,entryid]]></ColumnNames>
+            <ColumnTypes>
+                <![CDATA[java.lang.String,java.lang.Integer,java.lang.String]]></ColumnTypes>
+            <RowData>
+                <![CDATA[2:'AR`%VTed;sao-G@Cs2`;G(\Ik(q/GhPY\qJrDj8Ems6GrC!X5f=]ARpMk5)cngC<^mJ+1]A
+s$@U2i1BFeLQ<.e0[+f?pK&3ME-[kFcK0'ILun?L3UU/!$,=GUBuI-K+hged;$P~
+]]></RowData>
+        </sysFavorite>
+    </systemManagerFavoriteAndADHOCReport>
+    <AuthenticateObjectType class="com.fr.fs.auth.DefaultAuthenticateObjectType"/>
+    <SystemAttr loginUrl="" homePageURL="ReportServer?formlet=demo/homepage/finereport.frm" loginTitle="数据决策系统"
+                isLoginPageImg="true" isBackgroundImg="true" backgroundColor="0" customBackgroundColor="rgb(38,77,132)"
+                bannerType="2"/>
+    <AuthorizeAttr gradeAuthority="false" editReportAuthority="false" dataConnectionAuthority="false"/>
+    <UerDataControl type="0"/>
+    <fstheme name="default"/>
+    <SystemStyle colorScheme="0"/>
+    <AutoBackupTimerAttr name="autoBackup" isStart="true" nextStartDate="2017.01.15 09.25.04" frequency="7"/>
+    <DatabaseAdapterAttr isAdapted="true"/>
+    <UpgradeProgressAttr step="3"/>
+</fsconfig>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<backupConfig xmlVersion="20170720" releaseVersion="9.0.0">
+<Global path="${WEB_REPORT}/bakup" freq="7" capacity="1024" count="5" logOption="1"/>
+<LogModule isStart="false" nextStartDate="2019.04.30 11.31.40" isUsingGlobal="false" freq="90" retainOption="30" count="5" capacity="2048"/>
+<JarModule isStart="true" nextStartDate="2019.04.30 11.31.40" isUsingGlobal="true"/>
+<ConfigModule isStart="false" nextStartDate="2019.04.30 11.31.40" isUsingGlobal="true"/>
+<TemplateModule isStart="true" nextStartDate="2019.04.30 11.31.40" isUsingGlobal="true"/>
+<WholeModule isStart="true" nextStartDate="2019.04.30 11.31.40" isUsingGlobal="false" freq="30" count="5" capacity="5120"/>
+<PluginModule isStart="true" nextStartDate="2019.04.30 11.31.40" isUsingGlobal="true"/>
+</backupConfig>

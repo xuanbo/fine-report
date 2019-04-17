@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PrivilegeManager xmlVersion="20170720" releaseVersion="9.0.0" fsSystemManagerPassSet="true" male="false">
+    <rootManagerName>
+        <![CDATA[admin]]></rootManagerName>
+    <smsAppKey>
+        <![CDATA[]]></smsAppKey>
+    <smsAppSecret>
+        <![CDATA[]]></smsAppSecret>
+    <rootManagerPassword>
+        <![CDATA[___0072002a00670066000a]]></rootManagerPassword>
+    <AP class="com.fr.privilege.providers.NoAuthenticationProvider"/>
+    <ForwardUrl>
+        <![CDATA[${servletURL}?op=fr_platform]]></ForwardUrl>
+</PrivilegeManager>

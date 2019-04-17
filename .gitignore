@@ -1,0 +1,20 @@
+### OS X ###
+.DS_Store
+
+### IDEA ###
+.idea/
+*.iml
+
+### Maven ###
+target
+
+### Logs ###
+logs/
+
+### Fine ###
+env/bakup/
+env/WEB-INF/assets/
+env/WEB-INF/assist/
+env/WEB-INF/finedb/
+env/WEB-INF/logdb/
+env/WEB-INF/product_improvement/

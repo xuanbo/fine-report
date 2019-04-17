@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatasourceManager xmlVersion="20170720" releaseVersion="9.0.0">
+    <!-- 服务器数据库 -->
+    <ConnectionMap>
+        <Connection name="FRDemo" class="com.fr.data.impl.JDBCDatabaseConnection">
+            <DatabaseAttr/>
+            <JDBCDatabaseAttr url="jdbc:sqlite://${ENV_HOME}/../FRDemo.db" driver="org.sqlite.JDBC" user="root"
+                              password="___006100210065007b" encryptPassword="true">
+                <DBCPAttr/>
+            </JDBCDatabaseAttr>
+        </Connection>
+    </ConnectionMap>
+    <!-- 服务器数据集 -->
+    <TableDataMap>
+        <TableData name="总帐期间集" class="com.fr.data.impl.DBTableData">
+            <Parameters/>
+            <Attributes share="true" maxMemRowCount="10000"/>
+            <Connection class="com.fr.data.impl.NameDatabaseConnection">
+                <DatabaseName>
+                    <![CDATA[CMCC_EBS]]></DatabaseName>
+            </Connection>
+            <Query>
+                <![CDATA[SELECT gp.period_name 期间
+FROM gl_periods gp
+WHERE gp.period_set_name = 'CMCC_CAL'
+ORDER BY gp.period_name]]></Query>
+        </TableData>
+    </TableDataMap>
+</DatasourceManager>

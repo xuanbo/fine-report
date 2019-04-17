@@ -1,0 +1,1793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportServerParameter xmlVersion="20170720" releaseVersion="9.0.0">
+<ServerLogLevel>
+<![CDATA[WARNING]]></ServerLogLevel>
+<FRLogCleanAttr isStart="true" rate="90" lastTime="1555473356528"/>
+<LOGCNG/>
+<FARRAY/>
+<Write serverCharacterEncoding="GBK"/>
+<GZip run="true"/>
+<CacheCell maxCacheCellCount="800"/>
+<Lic useLock="false"/>
+<UseResServer useResServer="false"/>
+<ResServerPath/>
+<ServletMapping pattern="ReportServer"/>
+<ChromeChart downLocal="false"/>
+<JbossWebappName name="WebReport"/>
+<Hyperlink defaultLinkPath=""/>
+<SMS isSMSOpen="false"/>
+<ReportWebAttr>
+<ServerPrinter/>
+<WebPageContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.page.First">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("ReportServerP-First")}]]></Text>
+<IconName>
+<![CDATA[first]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Previous">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("ReportServerP-Previous")}]]></Text>
+<IconName>
+<![CDATA[previous]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.PageNavi">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Next">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("ReportServerP-Next")}]]></Text>
+<IconName>
+<![CDATA[next]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.page.Last">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("ReportServerP-Last")}]]></Text>
+<IconName>
+<![CDATA[last]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("Utils-Print[Client]A")}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr description="">
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持一线技术支持"/>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("Print")}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持一线技术支持"/>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("Export")}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n("Email")}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<WebPage isPage="false" isShowAsImage="false" isAutoScale="false" isTDHeavy="false"/>
+</WebPageContent>
+<WebViewContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.PageSetup">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('PageSetup-Page_Setup')}]]></Text>
+<IconName>
+<![CDATA[pagesetup]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.PrintPreview">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('PrintP-Print_Preview')}]]></Text>
+<IconName>
+<![CDATA[preview]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr description="">
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持一线技术支持"/>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持一线技术支持"/>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SortFuncCheck check="true"/>
+<ConditionFuncCheck check="true"/>
+<ListFuncCheck check="true"/>
+</WebViewContent>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Submit')}]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false" value="true"/>
+<Sheet onlySubmitSelect="false"/>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Verify">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Verify-Data_Verify')}]]></Text>
+<IconName>
+<![CDATA[verify]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.FlashPrint">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Utils-Print[Client]A')}]]></Text>
+<IconName>
+<![CDATA[flashprint]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.Print">
+<WidgetAttr description="">
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持一线技术支持"/>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Print')}]]></Text>
+<IconName>
+<![CDATA[print]]></IconName>
+<PrintButtons/>
+</Widget>
+<Widget class="com.fr.report.web.button.Export">
+<WidgetAttr description="">
+<PrivilegeControl>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持一线技术支持"/>
+<PrivilegeInvisibleRole privilegeInvisibleRole="技术支持总调度"/>
+</PrivilegeControl>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Export')}]]></Text>
+<IconName>
+<![CDATA[export]]></IconName>
+<Buttons pdf="true" excelP="true" excelO="true" excelS="true" word="true" image="true" html="true"/>
+</Widget>
+<Widget class="com.fr.report.web.button.Email">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Email')}]]></Text>
+<IconName>
+<![CDATA[email]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.AppendColumnRow">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[${i18n('Add')}${i18n('Record')}]]></Text>
+<IconName>
+<![CDATA[appendrow]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ShowCellValue">
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue/>
+<LabelAttr verticalcenter="true" textalign="0" autoline="false"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+<OtherAttr isAutoStash="false"/>
+</WebWriteContent>
+</ReportWebAttr>
+<EmailManager password="___" user="" fromEmailAddress="" port="25" encryption="TLS"/>
+<Parameters/>
+<LicenceAuthorizeConfig type="File" serverAddress="" appKey="" appSecretKey=""/>
+<Styles>
+<SAttr name="简灰">
+<Style horizontal_alignment="0" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="Verdana" style="0" size="96" foreground="-10855846"/>
+<Background name="ColorBackground" color="-986896"/>
+<Border>
+<Top style="5" color="-1"/>
+<Bottom style="5" color="-1"/>
+<Left style="5" color="-1"/>
+<Right style="5" color="-1"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="简绿">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13010610"/>
+<Background name="ColorBackground" color="-1575186"/>
+<Border>
+<Bottom style="5" color="-6108996"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="简蓝">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-12623199"/>
+<Background name="ColorBackground" color="-1905163"/>
+<Border>
+<Bottom style="5" color="-7427376"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="淡雅">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="Verdana" style="0" size="96" foreground="-12693388"/>
+<Background name="GradientBackground" color1="-1643282" color2="-5645842" direction="0" useCell="false" begin="254.0" finish="5.0" cyclic="false"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="小清新">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-8408643"/>
+<Background name="PatternBackground" patternIndex="5" foreground="-131587" background="-1247497"/>
+<Border>
+<Top style="14" color="-3478278"/>
+<Bottom style="14" color="-3478278"/>
+<Left style="14" color="-3478278"/>
+<Right style="14" color="-3478278"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="生机">
+<Style horizontal_alignment="0" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
+<Background name="GradientBackground" color1="-14571630" color2="-7220585" direction="0" useCell="false" begin="5.0" finish="253.0" cyclic="false"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="高端黑">
+<Style horizontal_alignment="0" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-2428417"/>
+<Background name="ColorBackground" color="-13946814"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="复古条纹">
+<Style horizontal_alignment="0" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-334363"/>
+<Background name="PatternBackground" patternIndex="5" foreground="-12504213" background="-11387037"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="热情红">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-555"/>
+<Background name="GradientBackground" color1="-3195330" color2="-7068389" direction="0" useCell="false" begin="5.0" finish="253.0" cyclic="false"/>
+<Border>
+<Left style="5" color="-8616"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="深海蓝">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1836289"/>
+<Background name="GradientBackground" color1="-13329690" color2="-13472328" direction="0" useCell="false" begin="5.0" finish="253.0" cyclic="false"/>
+<Border>
+<Left style="5" color="-5181185"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="活力黄">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-12829636"/>
+<Background name="GradientBackground" color1="-199558" color2="-1194476" direction="0" useCell="false" begin="5.0" finish="254.0" cyclic="false"/>
+<Border>
+<Left style="5" color="-13750738"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="魅力紫">
+<Style horizontal_alignment="2" imageLayout="1" paddingLeft="12" paddingRight="12">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-332545"/>
+<Background name="GradientBackground" color1="-8628565" color2="-10275705" direction="0" useCell="false" begin="5.0" finish="254.0" cyclic="false"/>
+<Border>
+<Left style="5" color="-291364"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="Title">
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="1" size="108" foreground="-16737895"/>
+<Background name="GradientBackground" color1="-4144960" color2="-16777216" direction="1" useCell="true" begin="0.0" finish="0.0" cyclic="false"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="Head">
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="2">
+<FRImage fm="png">
+<IM>
+<![CDATA[!Q"h"s+sQI7h#eD$31&+%7s)Y;?-[t%fcS0'F4mC!!&3S\C(?W!/X985u`*!mF8rZ!FZ[mdJ
+No=a%1@h_DK4?Th+3iLAPnbcJn3*eJG^HS,cRZlN#j-R0V*W4Fed@!AlMATS[po:!<]AQ''&q
+S!*(c/johW?rq]AB?Wn:%l"K74Fl&bsGYo0\N:_i;F8q<r*qCr#N@^/-F5ZK?G@ffUuGFT;=.
+TZKo!NNm.OB:@7P:"i\!!!!j78?7R6=>B~
+]]></IM>
+</FRImage>
+</Background>
+<Border>
+<Top style="1" color="-6697729"/>
+<Bottom style="1" color="-6697729"/>
+<Left style="1" color="-6697729"/>
+<Right style="1" color="-6697729"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="Explanation">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="3" color="-6697729"/>
+<Bottom style="3" color="-6697729"/>
+<Left style="3" color="-6697729"/>
+<Right style="3" color="-6697729"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="RTitle">
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="1" size="132" foreground="-16751002"/>
+<Background name="NullBackground"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="Head1">
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1577999"/>
+<Border>
+<Top style="1" color="-6697729"/>
+<Bottom style="1" color="-6697729"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="Head2">
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="1" size="72"/>
+<Background name="ColorBackground" color="-1577999"/>
+<Border>
+<Top style="1" color="-6697729"/>
+<Bottom style="1" color="-6697729"/>
+<Left style="1" color="-6697729"/>
+<Right style="1" color="-6697729"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="cell">
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6697729"/>
+<Bottom style="1" color="-6697729"/>
+<Left style="1" color="-6697729"/>
+<Right style="1" color="-6697729"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="BK">
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="1" size="80"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="2">
+<FRImage fm="png">
+<IM>
+<![CDATA[!CdC+p5)U@7h#eD$31&+%7s)Y;?-[sec5[M/I2O\!!(HUQ1P%V#n9Ho5u`*!mG7SZP_Bt[nG
+T1>*G:mVMc*D6j4/<FWu^M&`B'%0etLZo:-F>0O&ed#WCX]Afn_ar]A/Ai&$KF#E\DSdh:6C&U
+\C^ruAa_%l'2TahEmea_F]AR)"lODgccNW,61rW<[p:\H*ImuQB%50psd)oFVl>f&qVT?G]AnU
+)n`XIU0sY.q">#Tq#B=^&\tkc/gGlECnF&V.g:`f.bEcm)HGF-g$gZQucpDf@1=>DZ(ET2\.
+X_FPL[N_$uA?E*^-ZEt6[VeXu<>isqglheV`!E'YtjP:jX'Q8'd(cm.[,*;^XeP<$XMNZLJP
+:I7HnU4a\0)Qq"(#.#,nQ+i43)EV=D(!>_R1ME,Qd1n7M(9=)kP"0^Yb8A\A;U@(md$:Q&5;
+n538-oAi"]A"Rpjr&q^YX^@@4*_FO#mJn!*,Ufpg(ONk,6c)S%P*74D*3NL:_'%i&pf6\fL-T
+%Z"`!$FMi'XC99ptPJ\!&M(<6XRt;rJK4TWhVWU@W6<QmT3F5$f.$)he=e(U#oVEmSD$)Y]A9
+urtZ5)%QqQ3&pt6fSL``mZm[@Z9P3(/u\e=d[)NNeA(MKF;HdAC)'SEN='ZL7[$dWjKr/(!5
+FeGRfKR$(Mi4E&<YhN9Mg*e0;1dnn<5GN^D4!,c:'`#!36q65e%A,#/9a3#'T1EEkun=HVY]A
+@ld;j?^W>j#:HI'W0!$<G+'Ti[)WN`hE24!74@,:Y^kaI,rA<Vd4gkQ"!u?j?Ha7UQ'(bjj&
+cV"$Itj?]AJ^\._.nsZ)m&1H&Z:5+*!mBhU8=r_)QV_%^mBU'@n]AsYPYjZ2eJdd.A`ph%$<gn
+-$J#Ik9m#lig/J^heBtp2(J(=H?c9[/_ALb,hk.p&d5(DoY`.(8%FeM#6Y0Ao"jBhrFcp@R_
+\=T\6kQhK67iAAelTe]A;2$a%A$8+L)@BLS[9"B.Jk"J!N_lsK^'iMK=:#5Q$TKhH_B(aH2^N
+IQ[uBV"*+M[_DLWG6HtDYF6T17^VS,H&VbU*nIam;/i><T&.8[FZM!^uOWdPcOoG"RdQXc!=
+W:h[=ns$CHD6Q9VVS+P)'.'0-'Yb#V8Xg=d#)_&!-WKoiW,e6/PqHU+c#0F<Mf#$u[]A@XfaA
+Zk'g,a@#;SWgn;:$:8TIqoeQ'S<UEqk\SO3QN$A*b[/pCmnp`Lk%+h]Auqb41,`c0LmM\A+^&
+2)Q`n4PGn0k-rc(Ing9F7(qU\F'p)Y9B"rpLh?nF'G&##E@>\#rmUOe&$8_rf[(0&I@&#6-%
+5%hM.:A+>fkk]AiB6$=KiF^fOG#F7c<psgX8i+:E&5qBlXC-s)k(7a$*7h\<@op"V3Ko`Ye5Y
+biASe-n.OqA!_=C:(p&ti&nkW^.-#U+PLJR-pO%0n3jCF56bA0+@78r%]AG=c#6[Z6ZX03F\=
+j@*o>O6uoqXS:lI+]A[9P,<:-:(T_/+l2&2Xa!rR4pY8o!j=4kZe/!O:]A5=AJX(J*!/RN9UH+
+Zp#^->:=%kDnV_&1YmhJaMd*'(\!b[RET6u,a;Rsd`m[ak$t-Of:</O&opnHnSa/"FaUW9cO
+W24S6:l$17?f)iD9RDHM\,!L-"ZqcmnS&JR8(AGpQe1'<>CBjCV#e8\'`@WG^\G^N>0rF!^d
+h2NM']Al,nU>3\+Y>qA<-*a71M<g*Q)#i*Y_IHkC/F6'jc8,e)X<ibYRab_6).P_qBTD*8lDm
+@lSWoOrSML1T'Ckhg,3G9K0K_:U_W+o.4@m<"]A1p*=<k?'Z@uU@.o:%!"`>K83\&[ug9r8ne
+GlE;NlPc_,?5QApaW:Jt[n0]AK(<<W5UA,I'gRTp9`gDcnP.N7WgsqS+Dlll!7%nq48&U=<&i
+CHl=>(1rn8,:Y5MD9F^`(7Fp'?+7_7GEeNA3?']A4nQT5f(%09r-QtnL.+[ch'hSGt=NPoAVV
+7eoU!e>)b\n+lIfb"S]A=DZ*5h"(t3IXNIU]A37.<9R&s%-(nE93BQCO0/lB$\0C9ZQ6.!V^EM
+5Rs34Oth:iQ`8]AC/5Cl0rF!IN[,[Cep=hn`+-4]Ari2!0I5:dZSApP'YhjK_Y]AN.Iij1(N7U/
+?Hp4u_e+$('o0g.E$O'2]A<ZH7?c4-!t"MKl[=`\L$g2jmr*XL?1>`aB_b3%J\Bp]AOUN;`#-d
+V(9P&e+%[lJB*"'GfH&Fh+GKS2"eOG-t(S]A4S(dnf/_jc[p?huIM#6L,s6<.M8ea(f$,&\o5
+kN-%HI7:=aQ4hQ1GXFZ6unhjP)UH2S'OTLC0ATORWsCK[3N2rn/f!K-_CF3aV.fnNpS&YP+j
+#;Hc8G`i<GR)k:Wt@&.1Ionll3<3Xe'd7>\GPm\42mh>4p5@[AgT7j'(j&edSb6CD:(eeAoL
+kmXS/-TelL2+JVNUA@Kg-rY5,\e^?F'ceS"%gM"No`+o/K9T+m/b@f4b8ZmQp,T5f]ALLgY%\
+`-g-?!L4UO)/,^`9AiqpVK5,?b55p9`sc#+h=A>LN2PuL/PS-c8=Og*@dCQB$sgYdV@5VRgr
+Pd2;^8t8i.QEPH)'\:^Fa;CE&Vj*=ocD5WrhNc#[g9('n;lC]Ai@%Q&F5,B]A`0*6FKck!UqAU
+NW3A!;OA^_gRfqj`8Gd3EAG>J(Sl\ML2UVmRmEhdj%=4JbVt'!B??5h1)n<PBl)34%9*:,9h
+2CnpP]Ai67j_7_kSo'^E>B*:tRs,,F-8ZVUO:,8kkD:;Q!ATPgiiH5[/cj9qCm).U"R%7p92-
+XctQKY;pr9VFS/7Kf6MODp,?K%1MdiFFKrA)TPa)U"9F)Fh%m9]AI:+Cj(Sc=aW4ZiokV!NT4
+^[<?=l>'\X`GgftqOiEW+92CSr*BF7di)5ei33#^&9.@=_+ktmj@AYghOr>ihB8-V4#)84HE
+I(tee/=SbU^79uh+cZ)6&KOc#;CA5&Sn<rGkb*+)8IG=2'srbFk`PJ@Vi'\5<:CQ"(]AF[81\
+G,i6tmeE!!!!j78?7R6=>B~
+]]></IM>
+</FRImage>
+</Background>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="PINK">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="2">
+<FRImage fm="png">
+<IM>
+<![CDATA[!?M@%r/"6F7h#eD$31&+%7s)Y;?-[sli7"c3X>oi!!'@4[3bkR!p*!A5u`*!mG'F6gFs=liL
+D_lNfX?RaVOLO4[c/@7`M*2L8$@_"ITBg*fWi[>X+ZFSl@]AnT-Vhls5=(EZr4$b0.Fa-7Jks
+0!A),Wkr/Sb*l.mc&f9o<mCp,Xg:plU!18?0-(U#'G14#9M='cO^#$FCa7/8NN/Zdekps-l^
+?uEG9!$X*a6IfG!+t1.>A]AGWaj4FKPlj*@oGLmB:^-+.hh&FiUK1KH!3lS/]AXK9WBa995J,+
+BA4c/O+!R+(.VAIL\JsE67`SWdS3Hm+q*A"6@:mC:m'^Q`'2Psl=(!,RG2kMAJr^iM6B0P.!
+h>MVFYi4MQ!87/8Cr)Edo0A:u='/o8b"5oJolaG$E<.0m+)Uk?Qrnq;9Yp#U=\c9VIZ2L=1S
+8<_U9t0ZO-PiiEP=0O9u6,S<rfPqc(tS:W'EA,"FK$j^C[%Bahc,cfH8`P29]AV?Gg1#1:\39
+Sm,c.Sl3^p*3nVW?@.idl+<M[W_#d8<>%-(k"8S?d=J>ui1Be^-rqZ-Da5>j<3HO?Ck@+#MV
+$F%sFLq`2-g<0Q%T_0l+<TKIq?j9U/cEEpnD0'22QX-/9?bJu3:Eeu:&:Y!pTQo3+kk?<Yb`
+uUW.?s2<`gJ/<`i`qe9rma!p>SOJHaFsM9Wl&^'LAYk$V=tJc%uUM+_1U:_U:U^k,7c-,00W
+?uDa2&ecgXQa@N[:&6D\InO&C6@]Au5g(K=JY:b5H5RgE'b#7$pi'cf;!G\:r@:Qdbc/$k<;r
+Z4A"+4bHr`-H<@tL!76uB(K]A3iFP+$8e<T_(YS9,8EQZ23A-EW+#RK#\#+Hh.L7^NH7m/c[u
+HHW@>^eQ)GbBQJEP'q;WND>='3!7Ol)U[)eRgu[d.6aVVsoREoYs8.ZSfVqm$h7&u3p$6#Y4
+mh2ro$g8Q20W:+0_6<q:_0,=mHA17`WZb./.aA:+TDEW2]A/3j&uM<%!!!!j78?7R6=>B~
+]]></IM>
+</FRImage>
+</Background>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="YELLOW">
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="1" size="80"/>
+<Background name="ImageBackground" specifiedImageWidth="-1.0" specifiedImageHeight="-1.0" layout="2">
+<FRImage fm="png">
+<IM>
+<![CDATA[!=oP,oncL?7h#eD$31&+%7s)Y;?-[sfDkmO0*ha^!!%SZ"AAdq$._[95u`*!mG2Vu<7Munn/
+DuaJq@+0MH8Gk3n;g8C40fu[4bWN'ELKb'Lai&083L2,9gftdc+K),#tY)h2P:PR8/G9OWZ'
+7KI!&=IEV%*]A:/qnnUh6^GOIQThYZqpcc4ZL\UNkRs%\#aDDli+54b:cpZ>`@,QKoq!X&iEr
+<NWDNGr\nNl;k,?s*sf,u@>X(557E,&[i[S)QdI16DMUZ1l9_>!3eOaq@*j#'p@rdI/$8j#[
+\A<0f;Z4JW(U8-DQ39t<jkkrle.49>UbBB&\]AK*(0`$J-\^?l9N(%VGG>jH@jIAF^IkjBj'W
+?Xet>a<rkjT@jS!pC^GQ$Ufq/PZS=@YoL$K#o#'A,UnRFj=/`<Fc_H^:d*S'7=#n,YT5L:)"
+Z8O.^B/[,N&MNm._'XdEN69)h:I>ig"D6d:+W4ZNR<*7H>k)<r29(;Qo-AJ.F..0A(^'N%kh
+W*oo(?aQ%1>WV:q72eWEj+qXSa1;;-iBT7agQ%<1d'>@.YL7RnaL]A!7+^C)P*J3*3QA'>&Or
+seLdWtJ0G'guXQ:A%PD`L]AMWem\i"#P#T#W7ZEr]AGIN_?ACC7#r,6[kBJkc'9"Y!lE_rLrU3
+[Cm=Lnc%eRI8dCfPes2[OBg]AJ:>)D\]A<<pr8GqKG79pu)WXK,oH21$0nbGp37\]Agnp+'38ie
+S/uFLme'olXP6NdYio#m384S:B,ah-5ABYrP>8-2eaI.0H(io_,Y2!(p:ils[1u5KJu$9K.0
+L'5J41r\OrIgW\*09ER2rYbHP7.uNA9Rhs%QcikbXsF]A`u+3,p9o619u'O?uQ3K$lN@\Pupi
+HF"_WOJP&kkV7+:a0ZLc8ARo@YUO_`^9YUudnN:VkIu3Y.kk12L"Y<IQ'm^:g]A)kb%F-OPdO
+M.jE8R&.arl,fHTZ\bV16C8uRJI<XpbT-a'bI'=8G`f4mep*>^B#3U%Ma=1G'#mDE$Ic652>
+`2<:=G=R"n!GD5(b'M\*SJ_MYIL*E`R!<K>R1!H[]Ao'O=?SU+>.iT%#3RM*KI8C_NqoSnF"-
+Y^5)`Cnte(-C?s^W2/"[$C=\_QI3!3hhu14RhSm"4NPfZ'X3jaYpU[S)^q!;kesA:A"GUBXB
+:;dfV*G,_Q,(mO2>V%V_9+VbOf\fAD:@fN^mN5QU=5D;okO3U(t91(h:IiU['&^CSBag@<Xk
+#q'h(+Q,*sU/Hj:g,.^i;<9rA%m17[$(.3aV6:=l?\YPs^0fD-U]AETSB(=Gf7SZ=/'9;+B__
+J-P"n\S9o>6dh+mt,AhT0DliA8$f0R2&m0/$aa]Ak.tmc&cMmWqNas$QG`-<KU,g9_J['qEIT
+]A#(k>rm#fr<G:r2rma*^Ke+_3K2SI-r\N-VY>Q9^2h34ofGHPrpY#9_a`^i#TqUp%iKR#N.J
+YaTKcC;(X[WM8[fQNFUO:4@^Ua;FO,F=r1/=pQW@+&3d:V/78AgFV!tVGaRUY6&<4\8HrL1_
+U/?J8C]AB27EQda#uJ"N3V>%m0b&l=^TcsIHAf_c@Q<sK@MrX&29$>M!fh1\co+u:'qh4'jG<
+Kc-:r26$"^:1WG0I)lqdHV!5*f.5+XsB$4/PL0KEObcq_V`>G&HK,pJ@_3Wh`G>*eFHC#,2'
+:d/]Ao75s`HKHSZmt>ML61&eVm$=."2#M1R.O%kp[r2\F,M)qg2o2T1)5-f#h)L&,4"+bu(h4
+Tu]AG"$JKdoX47,a;g[mD(*%-ttD8-[A5#.%#rRXtD91Q^KQ$7GQ_@rS&k0D64@9,a?a7>rr3
+Vfl!6p)"XJ.71bG"M*?`OP`2*Epm-&m@l&(D;0jO%/m("TG6O[&kG&,\+_^?*^M0=1<)FepD
+:`K,ud?CD\6QX'Y+`D;h!"Y-89P(,Pd?=W6nFg7T/eLT\MBl)Zt0UBf]ApdZ/K9gNMP67M(U#
+M;loSSX`<5?LQi`3GDk@'^jU8dABbsI>,o(1V]AfD/Sl.Qa\_>Gi0b9.nAF1BJCX4um2.PV34
+gU6FR^8+4WP8ZO8A&e9c(1iOQ2PYA`.qu8YkA,*fL2,(cXi&\3)qmIV[cO05!0Y7!u$cu3t$
+ZG`mO6f,N1Ec<tX7M3E5Bke6Ln*5F_gY2Z^Gk(IB-%+6qd0N%kjkc-(YGBY:::Fs7[O\"WLk
+7/pJfme:*!P(!LcFl0+ZRL&`:GEB#?#bl2LEcm]AkGAn1)ll5"MqCYG[c%D7MK,;D+4.cjp,*
+K\"_O_`.?lrZ@NAV%5d.caWM^`>+d!.Rha,D`kQPIM-QU)Yg!P)<F85SLW]A1P);JE78H:4Kn
+jMEWRU^4O?Tkes*VWu,=fj<n#EqUj'9i?)"NIRm1V.?]Askr[2(qrrhWVPu'uRL09!XXSV6*l
+>M2uj;3b0&#0'C6;HgLLH%U1?OM/S.c"cX?g1D&Hpu*u\H_>_l]AM5>7[OY"Kf]A'GQq&Mk2#`
+Lik,%$K)Lq?co$a'Nl[MYuocsEC4rl?OM1"I5?g1DK)h*kGZ)NhE;eWfGB%(UU0i,7p`o^LH
+'["fT3_-4Lb-(p0hY$33ci"q$ZY:?K/[HRhB>P)&L7i%rf^NFp>Wq5%dgK[G%&en0YWogEki
+!%>!L(PN_ePWD33hilW8JXY]A)MiV)"Y$EWpN!kpA'"K:%MdPc%OpB9-gRX'_^VOIa`ht4:ST
+1*itYf0KU'p)d82*<uK6U`JcM^#VSKXEtQX!H_K.0;:+_uY&1WHkN,*>":Rp(WEl:W1s^g';
+?jKk66BI4\,NcsQbs4d`k9CDEi?.]AomWW1gIbS4+1(W(=N>"f^1`hR,$Ab*gH$?X8tbB!6ah
+%>nmOR.Z5Qd-8]AI-QI,m#LajnJPQ;NjnEHiq<>n9bqbsnd<hoVS=j"Jf,E9+Wsl2;1<DE9M`
+%dl-jEntLJ@iikhj2`Rui61<kaG?=R2&L.Z'I($e@Gb`*R%Pnf)^Bm!HXM%KU#\?</%u@&e8
+;G1kbJR*Qj7i$Vmi+UPQRTd3$%)lD%?ZL$]AskM5'/I;Y2[;N3?_S1d2Z%P.?U=3&4;:bN"+*
+jXOfHEYuQmV<(riU@7D<dH#bj-1@f=uWmAJ[A()UWN>"DALDBgR,"FZ;Y!4\]A4?+?3oV90#j
+C).2A["N4;90Lqf/O/[\&Z%Kh?]Ap#)+XtWVC!77N6ab@IZO@8r;\Qr>A_BILVQIZ#j0&eL;*
+E/SJF\<SW8YY!`$C>'W-]AaiYTB/5Hk(ea"TW<OYCX=z8OZBBY!QNJ~
+]]></IM>
+</FRImage>
+</Background>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="h11">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="GradientBackground" color1="-4144960" color2="-52" direction="1" useCell="true" begin="0.0" finish="0.0" cyclic="false"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="h12">
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.00]]></Format>
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="NullBackground"/>
+<Border>
+<Top style="1" color="-6894375"/>
+<Bottom style="1" color="-6894375"/>
+<Left style="1" color="-6894375"/>
+<Right style="1" color="-6894375"/>
+</Border>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝标题_网格">
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-9844489"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14444328"/>
+<Background name="ColorBackground" color="-459265"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-861596"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1397241"/>
+<Background name="ColorBackground" color="-264"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-5973110"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-11428279"/>
+<Background name="ColorBackground" color="-327688"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-10311687"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14719284"/>
+<Background name="ColorBackground" color="-656385"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-738708"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-884443"/>
+<Background name="ColorBackground" color="-1291"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_铅白标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-1381654"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_铅白正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-8355712"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-418932"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-2607824"/>
+<Background name="ColorBackground" color="-1800"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="浅_浅灰标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-3355444"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="浅_浅灰正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-394759"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_湖蓝标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14444328"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_湖蓝正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14444328"/>
+<Background name="ColorBackground" color="-459265"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_杏黄标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-264"/>
+<Background name="ColorBackground" color="-1397241"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_杏黄正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1397241"/>
+<Background name="ColorBackground" color="-264"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_竹绿标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11428279"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_竹绿正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-11428279"/>
+<Background name="ColorBackground" color="-327688"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_孔雀蓝标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14719284"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_孔雀蓝正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14719284"/>
+<Background name="ColorBackground" color="-656385"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_橙色标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-884443"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_橙色正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-884443"/>
+<Background name="ColorBackground" color="-1291"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_灰色标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-5592406"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_灰色正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-723724"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_月季红标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-2607824"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_月季红正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-2607824"/>
+<Background name="ColorBackground" color="-2571"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_黑色标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14803426"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_黑色正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-723724"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14444328"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-4461057"/>
+<Background name="ColorBackground" color="-13587201"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-264"/>
+<Background name="ColorBackground" color="-1397241"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-868062"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11428279"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-3017539"/>
+<Background name="ColorBackground" color="-8994961"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14719284"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-5974273"/>
+<Background name="ColorBackground" color="-12216357"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-884443"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-7747"/>
+<Background name="ColorBackground" color="-877483"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-5592406"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-723724"/>
+<Background name="ColorBackground" color="-4079167"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-2607824"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-16970"/>
+<Background name="ColorBackground" color="-2074022"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色标题_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14803426"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色正文_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1381654"/>
+<Background name="ColorBackground" color="-8355712"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-7808004"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-459265"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-861596"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-264"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-4529498"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-327688"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-5646593"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-656385"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-206435"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-1291"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_铅白标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-1381654"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_铅白正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-13366"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-1800"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅灰标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-3355444"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅灰正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-12632257"/>
+<Background name="ColorBackground" color="-394759"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14444328"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-9844489"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-264"/>
+<Background name="ColorBackground" color="-1397241"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-861596"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿标题_对比_网络">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11428279"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿正文_对比_网络">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-5973110"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14719284"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-9259529"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-884443"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-738708"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-5592406"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-2894893"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-2607824"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-752776"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色标题_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14803426"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色正文_对比_网格">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-5592406"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14444328"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_正文1_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-723724"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_正文2_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-1381654"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-264"/>
+<Background name="ColorBackground" color="-1397241"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11428279"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14719284"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-884443"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-264"/>
+<Background name="ColorBackground" color="-5592406"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-2607824"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14803426"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-9844489"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_正文1_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-197380"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_正文2_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-723724"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-861596"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-5973110"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-10311687"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-738708"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_铅白标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-1381654"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-418932"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅灰标题_对比_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-3355444"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-9844489"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14444328"/>
+<Background name="ColorBackground" color="-655873"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_天蓝正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14444328"/>
+<Background name="ColorBackground" color="-1509639"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-861596"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1397241"/>
+<Background name="ColorBackground" color="-264"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_柠檬黄正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1397241"/>
+<Background name="ColorBackground" color="-395547"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-5973110"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-11428279"/>
+<Background name="ColorBackground" color="-327688"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅绿正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-11428279"/>
+<Background name="ColorBackground" color="-1377820"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-10311687"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14719284"/>
+<Background name="ColorBackground" color="-656385"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅宝蓝正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14719284"/>
+<Background name="ColorBackground" color="-1904649"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-738708"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-884443"/>
+<Background name="ColorBackground" color="-1291"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_浅橙正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-884443"/>
+<Background name="ColorBackground" color="-397080"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-681076"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-2607824"/>
+<Background name="ColorBackground" color="-1800"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="淡_粉红正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-2607824"/>
+<Background name="ColorBackground" color="-397843"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14444328"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-4461057"/>
+<Background name="ColorBackground" color="-11224081"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_湖蓝正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-4461057"/>
+<Background name="ColorBackground" color="-12995606"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-264"/>
+<Background name="ColorBackground" color="-1397241"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-861596"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_杏黄正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-1389229"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11428279"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-3017539"/>
+<Background name="ColorBackground" color="-8272263"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_竹绿正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-3017539"/>
+<Background name="ColorBackground" color="-8994961"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14719284"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-5974273"/>
+<Background name="ColorBackground" color="-12216357"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_孔雀蓝正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-5974273"/>
+<Background name="ColorBackground" color="-12678450"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-884443"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-397080"/>
+<Background name="ColorBackground" color="-738708"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_橙色正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-397080"/>
+<Background name="ColorBackground" color="-1069986"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-5592406"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-2565928"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_灰色正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14803426"/>
+<Background name="ColorBackground" color="-3355444"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-2607824"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-397843"/>
+<Background name="ColorBackground" color="-752776"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_月季红正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-397843"/>
+<Background name="ColorBackground" color="-1411983"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14803426"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1381654"/>
+<Background name="ColorBackground" color="-8355712"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="深_黑色正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1381654"/>
+<Background name="ColorBackground" color="-9079435"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_湖蓝标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14444328"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_湖蓝正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14444328"/>
+<Background name="ColorBackground" color="-655873"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_湖蓝正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14444328"/>
+<Background name="ColorBackground" color="-1509639"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_杏黄标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1397241"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_杏黄正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1397241"/>
+<Background name="ColorBackground" color="-264"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_杏黄正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1397241"/>
+<Background name="ColorBackground" color="-395547"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_竹绿标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-11428279"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_竹绿正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-11428279"/>
+<Background name="ColorBackground" color="-327688"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_竹绿正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-11428279"/>
+<Background name="ColorBackground" color="-1377820"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_孔雀蓝标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-14719284"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_孔雀蓝正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14719284"/>
+<Background name="ColorBackground" color="-656385"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_孔雀蓝正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-14719284"/>
+<Background name="ColorBackground" color="-1904649"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_橙色标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-884443"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_橙色正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-884443"/>
+<Background name="ColorBackground" color="-1291"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_橙色正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-884443"/>
+<Background name="ColorBackground" color="-397080"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_月季红标题_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-2607824"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_月季红正文1_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-2607824"/>
+<Background name="ColorBackground" color="-1800"/>
+<Border/>
+</Style>
+</SAttr>
+<SAttr name="中_月季红正文2_极简">
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-2607824"/>
+<Background name="ColorBackground" color="-397843"/>
+<Border/>
+</Style>
+</SAttr>
+</Styles>
+<SessionInfo checkTime="40000" deadTime="400000" heartBeat="true"/>
+<PrintAttrProvider popupFlashPrint="true" popupPdfPrint="true" popupAppletPrint="true" popupNativePrint="true" flashFitPaper="false">
+<PrintSettings printType="0" valid="true">
+<NoClientPrintAttr>
+<NoClientPrintAttr setMarginOnPrint="false" ieQuietPrint="false" inheritPageMarginSetting="true">
+<PrintMargin>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PrintMargin>
+</NoClientPrintAttr>
+</NoClientPrintAttr>
+<NativePrintAttr>
+<NativePrintAttr showDialog="false" printerName="" copy="1" pageType="0" area="" inheritPagePaperSetting="true" inheritPageLayoutSetting="true" orientation="0" inheritPageMarginSetting="true" fitPaperSize="true" scalePercent="100">
+<PrintMargin>
+<Margin top="986400" left="2743200" bottom="986400" right="2743200"/>
+</PrintMargin>
+</NativePrintAttr>
+</NativePrintAttr>
+</PrintSettings>
+</PrintAttrProvider>
+<CustomLocale>
+<Parameters/>
+<DSName>
+<![CDATA[]]></DSName>
+<ColumnNames>
+<![CDATA[]]></ColumnNames>
+<ColumnTypes>
+<![CDATA[]]></ColumnTypes>
+</CustomLocale>
+<writeShortCuts writeShortCuts="true"/>
+</ReportServerParameter>

@@ -1,0 +1,13 @@
+server:
+  port: 15020
+  # 1024 * 1024
+  maxHttpHeaderSize: 1048576
+
+spring:
+  application:
+    name: finereport
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phantom xmlVersion="20170720" releaseVersion="9.0.0">
+    <ip>
+        <![CDATA[127.0.0.1]]></ip>
+    <portList>
+        <port>
+            <![CDATA[60880]]></port>
+        <port>
+            <![CDATA[60890]]></port>
+    </portList>
+    <exe>
+        <![CDATA[inner server]]></exe>
+    <log-level>
+        <![CDATA[error]]></log-level>
+</phantom>

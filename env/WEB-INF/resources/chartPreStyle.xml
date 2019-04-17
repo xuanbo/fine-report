@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ChartPreStyleServerManager xmlVersion="20141222" releaseVersion="8.0.0">
+    <CPSattr currentStyle="明亮"/>
+    <OnePreStyle name="明亮">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-15830324"/>
+                        <OColor colvalue="-9657585"/>
+                        <OColor colvalue="-683247"/>
+                        <OColor colvalue="-375997"/>
+                        <OColor colvalue="-15290420"/>
+                        <OColor colvalue="-8011743"/>
+                        <OColor colvalue="-3069334"/>
+                        <OColor colvalue="-15830324"/>
+                        <OColor colvalue="-9657585"/>
+                        <OColor colvalue="-683247"/>
+                        <OColor colvalue="-375997"/>
+                        <OColor colvalue="-15290420"/>
+                        <OColor colvalue="-8011743"/>
+                        <OColor colvalue="-3069334"/>
+                        <OColor colvalue="-15830324"/>
+                        <OColor colvalue="-9657585"/>
+                        <OColor colvalue="-683247"/>
+                        <OColor colvalue="-375997"/>
+                        <OColor colvalue="-15290420"/>
+                        <OColor colvalue="-8011743"/>
+                        <OColor colvalue="-3069334"/>
+                        <OColor colvalue="-15830324"/>
+                        <OColor colvalue="-9657585"/>
+                        <OColor colvalue="-683247"/>
+                        <OColor colvalue="-375997"/>
+                        <OColor colvalue="-15290420"/>
+                        <OColor colvalue="-8011743"/>
+                        <OColor colvalue="-3069334"/>
+                        <OColor colvalue="-15830324"/>
+                        <OColor colvalue="-9657585"/>
+                        <OColor colvalue="-683247"/>
+                        <OColor colvalue="-375997"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="雅致">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-13204802"/>
+                        <OColor colvalue="-12212362"/>
+                        <OColor colvalue="-1027290"/>
+                        <OColor colvalue="-1124489"/>
+                        <OColor colvalue="-13414555"/>
+                        <OColor colvalue="-5007538"/>
+                        <OColor colvalue="-13055107"/>
+                        <OColor colvalue="-2249165"/>
+                        <OColor colvalue="-8107085"/>
+                        <OColor colvalue="-7092907"/>
+                        <OColor colvalue="-10525036"/>
+                        <OColor colvalue="-2148223"/>
+                        <OColor colvalue="-13725034"/>
+                        <OColor colvalue="-13204802"/>
+                        <OColor colvalue="-12212362"/>
+                        <OColor colvalue="-1027290"/>
+                        <OColor colvalue="-1124489"/>
+                        <OColor colvalue="-13414555"/>
+                        <OColor colvalue="-5007538"/>
+                        <OColor colvalue="-13055107"/>
+                        <OColor colvalue="-2249165"/>
+                        <OColor colvalue="-8107085"/>
+                        <OColor colvalue="-7092907"/>
+                        <OColor colvalue="-10525036"/>
+                        <OColor colvalue="-2148223"/>
+                        <OColor colvalue="-13725034"/>
+                        <OColor colvalue="-13204802"/>
+                        <OColor colvalue="-12212362"/>
+                        <OColor colvalue="-1027290"/>
+                        <OColor colvalue="-1124489"/>
+                        <OColor colvalue="-13414555"/>
+                        <OColor colvalue="-5007538"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="柔和">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-10773547"/>
+                        <OColor colvalue="-1213135"/>
+                        <OColor colvalue="-9392825"/>
+                        <OColor colvalue="-16384"/>
+                        <OColor colvalue="-12291388"/>
+                        <OColor colvalue="-7221212"/>
+                        <OColor colvalue="-5098010"/>
+                        <OColor colvalue="-16601483"/>
+                        <OColor colvalue="-10773547"/>
+                        <OColor colvalue="-1213135"/>
+                        <OColor colvalue="-9392825"/>
+                        <OColor colvalue="-16384"/>
+                        <OColor colvalue="-12291388"/>
+                        <OColor colvalue="-7221212"/>
+                        <OColor colvalue="-5098010"/>
+                        <OColor colvalue="-16601483"/>
+                        <OColor colvalue="-10773547"/>
+                        <OColor colvalue="-1213135"/>
+                        <OColor colvalue="-9392825"/>
+                        <OColor colvalue="-16384"/>
+                        <OColor colvalue="-12291388"/>
+                        <OColor colvalue="-7221212"/>
+                        <OColor colvalue="-5098010"/>
+                        <OColor colvalue="-16601483"/>
+                        <OColor colvalue="-10773547"/>
+                        <OColor colvalue="-1213135"/>
+                        <OColor colvalue="-9392825"/>
+                        <OColor colvalue="-16384"/>
+                        <OColor colvalue="-12291388"/>
+                        <OColor colvalue="-7221212"/>
+                        <OColor colvalue="-5098010"/>
+                        <OColor colvalue="-16601483"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="淡雅">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-8604180"/>
+                        <OColor colvalue="-12369080"/>
+                        <OColor colvalue="-7279235"/>
+                        <OColor colvalue="-548004"/>
+                        <OColor colvalue="-8354327"/>
+                        <OColor colvalue="-959360"/>
+                        <OColor colvalue="-1780908"/>
+                        <OColor colvalue="-8604180"/>
+                        <OColor colvalue="-12369080"/>
+                        <OColor colvalue="-7279235"/>
+                        <OColor colvalue="-548004"/>
+                        <OColor colvalue="-8354327"/>
+                        <OColor colvalue="-959360"/>
+                        <OColor colvalue="-1780908"/>
+                        <OColor colvalue="-8604180"/>
+                        <OColor colvalue="-12369080"/>
+                        <OColor colvalue="-7279235"/>
+                        <OColor colvalue="-548004"/>
+                        <OColor colvalue="-8354327"/>
+                        <OColor colvalue="-959360"/>
+                        <OColor colvalue="-1780908"/>
+                        <OColor colvalue="-8604180"/>
+                        <OColor colvalue="-12369080"/>
+                        <OColor colvalue="-7279235"/>
+                        <OColor colvalue="-548004"/>
+                        <OColor colvalue="-8354327"/>
+                        <OColor colvalue="-959360"/>
+                        <OColor colvalue="-1780908"/>
+                        <OColor colvalue="-8604180"/>
+                        <OColor colvalue="-12369080"/>
+                        <OColor colvalue="-7279235"/>
+                        <OColor colvalue="-548004"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="复古">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-16285489"/>
+                        <OColor colvalue="-9023483"/>
+                        <OColor colvalue="-365283"/>
+                        <OColor colvalue="-15848318"/>
+                        <OColor colvalue="-4803297"/>
+                        <OColor colvalue="-2482408"/>
+                        <OColor colvalue="-9430938"/>
+                        <OColor colvalue="-755083"/>
+                        <OColor colvalue="-16736846"/>
+                        <OColor colvalue="-16626863"/>
+                        <OColor colvalue="-16285489"/>
+                        <OColor colvalue="-9023483"/>
+                        <OColor colvalue="-365283"/>
+                        <OColor colvalue="-15848318"/>
+                        <OColor colvalue="-4803297"/>
+                        <OColor colvalue="-2482408"/>
+                        <OColor colvalue="-9430938"/>
+                        <OColor colvalue="-755083"/>
+                        <OColor colvalue="-16736846"/>
+                        <OColor colvalue="-16626863"/>
+                        <OColor colvalue="-16285489"/>
+                        <OColor colvalue="-9023483"/>
+                        <OColor colvalue="-365283"/>
+                        <OColor colvalue="-15848318"/>
+                        <OColor colvalue="-4803297"/>
+                        <OColor colvalue="-2482408"/>
+                        <OColor colvalue="-9430938"/>
+                        <OColor colvalue="-755083"/>
+                        <OColor colvalue="-16736846"/>
+                        <OColor colvalue="-16626863"/>
+                        <OColor colvalue="-16285489"/>
+                        <OColor colvalue="-9023483"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="商务">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-15118441"/>
+                        <OColor colvalue="-11184811"/>
+                        <OColor colvalue="-4363512"/>
+                        <OColor colvalue="-16750485"/>
+                        <OColor colvalue="-3658447"/>
+                        <OColor colvalue="-10331231"/>
+                        <OColor colvalue="-7763575"/>
+                        <OColor colvalue="-6514688"/>
+                        <OColor colvalue="-16744620"/>
+                        <OColor colvalue="-6187579"/>
+                        <OColor colvalue="-15714713"/>
+                        <OColor colvalue="-945550"/>
+                        <OColor colvalue="-4092928"/>
+                        <OColor colvalue="-13224394"/>
+                        <OColor colvalue="-12423245"/>
+                        <OColor colvalue="-10043521"/>
+                        <OColor colvalue="-406154"/>
+                        <OColor colvalue="-13031292"/>
+                        <OColor colvalue="-16732559"/>
+                        <OColor colvalue="-7099690"/>
+                        <OColor colvalue="-11991199"/>
+                        <OColor colvalue="-331445"/>
+                        <OColor colvalue="-6991099"/>
+                        <OColor colvalue="-16686527"/>
+                        <OColor colvalue="-9205567"/>
+                        <OColor colvalue="-7397856"/>
+                        <OColor colvalue="-406154"/>
+                        <OColor colvalue="-2712831"/>
+                        <OColor colvalue="-4737097"/>
+                        <OColor colvalue="-11460720"/>
+                        <OColor colvalue="-6696775"/>
+                        <OColor colvalue="-3685632"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="清新">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-16733983"/>
+                        <OColor colvalue="-6697984"/>
+                        <OColor colvalue="-1900487"/>
+                        <OColor colvalue="-208128"/>
+                        <OColor colvalue="-8388480"/>
+                        <OColor colvalue="-16737970"/>
+                        <OColor colvalue="-39424"/>
+                        <OColor colvalue="-8355840"/>
+                        <OColor colvalue="-2424638"/>
+                        <OColor colvalue="-16744320"/>
+                        <OColor colvalue="-16776961"/>
+                        <OColor colvalue="-3617792"/>
+                        <OColor colvalue="-16772475"/>
+                        <OColor colvalue="-16725300"/>
+                        <OColor colvalue="-2082816"/>
+                        <OColor colvalue="-353536"/>
+                        <OColor colvalue="-8058368"/>
+                        <OColor colvalue="-6750071"/>
+                        <OColor colvalue="-4233728"/>
+                        <OColor colvalue="-16728226"/>
+                        <OColor colvalue="-7536420"/>
+                        <OColor colvalue="-331520"/>
+                        <OColor colvalue="-6991104"/>
+                        <OColor colvalue="-16752063"/>
+                        <OColor colvalue="-9205567"/>
+                        <OColor colvalue="-7397856"/>
+                        <OColor colvalue="-406154"/>
+                        <OColor colvalue="-2712831"/>
+                        <OColor colvalue="-4737097"/>
+                        <OColor colvalue="-11460720"/>
+                        <OColor colvalue="-6696775"/>
+                        <OColor colvalue="-3685632"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="经典">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-16765869"/>
+                        <OColor colvalue="-23280"/>
+                        <OColor colvalue="-15956794"/>
+                        <OColor colvalue="-17050"/>
+                        <OColor colvalue="-570035"/>
+                        <OColor colvalue="-14395996"/>
+                        <OColor colvalue="-12470356"/>
+                        <OColor colvalue="-16765869"/>
+                        <OColor colvalue="-23280"/>
+                        <OColor colvalue="-15956794"/>
+                        <OColor colvalue="-17050"/>
+                        <OColor colvalue="-570035"/>
+                        <OColor colvalue="-14395996"/>
+                        <OColor colvalue="-12470356"/>
+                        <OColor colvalue="-16765869"/>
+                        <OColor colvalue="-23280"/>
+                        <OColor colvalue="-15956794"/>
+                        <OColor colvalue="-17050"/>
+                        <OColor colvalue="-570035"/>
+                        <OColor colvalue="-14395996"/>
+                        <OColor colvalue="-12470356"/>
+                        <OColor colvalue="-16765869"/>
+                        <OColor colvalue="-23280"/>
+                        <OColor colvalue="-15956794"/>
+                        <OColor colvalue="-17050"/>
+                        <OColor colvalue="-570035"/>
+                        <OColor colvalue="-14395996"/>
+                        <OColor colvalue="-12470356"/>
+                        <OColor colvalue="-16765869"/>
+                        <OColor colvalue="-23280"/>
+                        <OColor colvalue="-15956794"/>
+                        <OColor colvalue="-17050"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="渐变">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-9327034"/>
+                        <OColor colvalue="-6899900"/>
+                        <OColor colvalue="-3879880"/>
+                        <OColor colvalue="-1318614"/>
+                        <OColor colvalue="-1396698"/>
+                        <OColor colvalue="-1866453"/>
+                        <OColor colvalue="-2597590"/>
+                        <OColor colvalue="-3267034"/>
+                        <OColor colvalue="-5496794"/>
+                        <OColor colvalue="-9327034"/>
+                        <OColor colvalue="-6899900"/>
+                        <OColor colvalue="-3879880"/>
+                        <OColor colvalue="-1318614"/>
+                        <OColor colvalue="-1396698"/>
+                        <OColor colvalue="-1866453"/>
+                        <OColor colvalue="-2597590"/>
+                        <OColor colvalue="-3267034"/>
+                        <OColor colvalue="-5496794"/>
+                        <OColor colvalue="-9327034"/>
+                        <OColor colvalue="-6899900"/>
+                        <OColor colvalue="-3879880"/>
+                        <OColor colvalue="-1318614"/>
+                        <OColor colvalue="-1396698"/>
+                        <OColor colvalue="-1866453"/>
+                        <OColor colvalue="-2597590"/>
+                        <OColor colvalue="-3267034"/>
+                        <OColor colvalue="-5496794"/>
+                        <OColor colvalue="-9327034"/>
+                        <OColor colvalue="-6899900"/>
+                        <OColor colvalue="-3879880"/>
+                        <OColor colvalue="-1318614"/>
+                        <OColor colvalue="-1396698"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="怀旧">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-12885359"/>
+                        <OColor colvalue="-7062471"/>
+                        <OColor colvalue="-8941501"/>
+                        <OColor colvalue="-10335108"/>
+                        <OColor colvalue="-13073256"/>
+                        <OColor colvalue="-4230348"/>
+                        <OColor colvalue="-12621671"/>
+                        <OColor colvalue="-6537155"/>
+                        <OColor colvalue="-8546233"/>
+                        <OColor colvalue="-10006397"/>
+                        <OColor colvalue="-12874847"/>
+                        <OColor colvalue="-3573449"/>
+                        <OColor colvalue="-12423775"/>
+                        <OColor colvalue="-6012096"/>
+                        <OColor colvalue="-8085685"/>
+                        <OColor colvalue="-9677686"/>
+                        <OColor colvalue="-12610903"/>
+                        <OColor colvalue="-2916550"/>
+                        <OColor colvalue="-12225881"/>
+                        <OColor colvalue="-5618109"/>
+                        <OColor colvalue="-7756466"/>
+                        <OColor colvalue="-9348977"/>
+                        <OColor colvalue="-12478289"/>
+                        <OColor colvalue="-2390979"/>
+                        <OColor colvalue="-12028242"/>
+                        <OColor colvalue="-5158586"/>
+                        <OColor colvalue="-7426991"/>
+                        <OColor colvalue="-9086059"/>
+                        <OColor colvalue="-12280138"/>
+                        <OColor colvalue="-1799616"/>
+                        <OColor colvalue="-11830348"/>
+                        <OColor colvalue="-4764599"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+    <OnePreStyle name="新特性">
+        <OnePre class="com.fr.chart.base.ChartPreStyle">
+            <ChartPreStyle>
+                <PSattr prePlotStyle="0"/>
+                <AttrFillStyle>
+                    <AFStyle colorStyle="1"/>
+                    <FillStyleName fillStyleName=""/>
+                    <ColorList>
+                        <OColor colvalue="-10243346"/>
+                        <OColor colvalue="-8988015"/>
+                        <OColor colvalue="-472193"/>
+                        <OColor colvalue="-486008"/>
+                        <OColor colvalue="-8595761"/>
+                        <OColor colvalue="-7236949"/>
+                        <OColor colvalue="-8873759"/>
+                        <OColor colvalue="-1071514"/>
+                        <OColor colvalue="-1188474"/>
+                        <OColor colvalue="-6715442"/>
+                        <OColor colvalue="-10243346"/>
+                        <OColor colvalue="-8988015"/>
+                        <OColor colvalue="-472193"/>
+                        <OColor colvalue="-486008"/>
+                        <OColor colvalue="-8595761"/>
+                        <OColor colvalue="-7236949"/>
+                        <OColor colvalue="-8873759"/>
+                        <OColor colvalue="-1071514"/>
+                        <OColor colvalue="-1188474"/>
+                        <OColor colvalue="-6715442"/>
+                        <OColor colvalue="-10243346"/>
+                        <OColor colvalue="-8988015"/>
+                        <OColor colvalue="-472193"/>
+                        <OColor colvalue="-486008"/>
+                        <OColor colvalue="-8595761"/>
+                        <OColor colvalue="-7236949"/>
+                        <OColor colvalue="-8873759"/>
+                        <OColor colvalue="-1071514"/>
+                        <OColor colvalue="-1188474"/>
+                        <OColor colvalue="-6715442"/>
+                        <OColor colvalue="-10243346"/>
+                        <OColor colvalue="-8988015"/>
+                    </ColorList>
+                </AttrFillStyle>
+            </ChartPreStyle>
+        </OnePre>
+    </OnePreStyle>
+</ChartPreStyleServerManager>
