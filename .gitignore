@@ -5,8 +5,15 @@
 .idea/
 *.iml
 
+### VS Code ###
+.vscode/
+.classpath
+.factorypath
+.project
+.settings/
+
 ### Maven ###
-target
+target/
 
 ### Logs ###
 logs/

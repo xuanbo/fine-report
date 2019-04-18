@@ -2,6 +2,7 @@ package com.xinqing.finereport.conf;
 
 import com.fr.web.ReportServlet;
 import org.apache.catalina.Context;
+import org.springframework.beans.factory.BeanCreationException;
 import org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -24,7 +25,7 @@ public class FineConfiguration {
      * @return ServletRegistrationBean<ReportServlet>
      */
     @Bean
-    public ServletRegistrationBean reportServlet() {
+    public ServletRegistrationBean<ReportServlet> reportServlet() {
         ServletRegistrationBean<ReportServlet> registration = new ServletRegistrationBean<>(new ReportServlet());
         registration.addUrlMappings("/ReportServer");
         registration.setLoadOnStartup(0);
@@ -42,9 +43,13 @@ public class FineConfiguration {
             @Override
             protected void postProcessContext(Context context) {
                 File file = new File("env");
-                String env = file.getAbsoluteFile().getPath();
-                logger.info("Reset fine webapp dir: " + env);
-                context.setDocBase(env);
+                if (file.exists() && file.isDirectory()) {
+                    String env = file.getAbsoluteFile().getPath();
+                    logger.info("Reset fine webapp dir: " + env);
+                    context.setDocBase(env);
+                } else {
+                    throw new BeanCreationException("Fine webapp dir [env] not found");
+                }
             }
         };
     }
