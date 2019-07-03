@@ -66,7 +66,7 @@ $ mvn package
 注意：**需要将`env`目录与打包好的`jar`放在同一个目录下**，程序启动后会将`env`目录作为`docBase`。
 
 ```shell
-$ nohup java -jar hdsp-finereport.{version}.jar > startup.log &
+$ nohup java -jar fine-report.{version}.jar > startup.log &
 ```
 
 ### 访问
